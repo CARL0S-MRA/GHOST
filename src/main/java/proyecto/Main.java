@@ -72,16 +72,6 @@ public class Main {
                             break;
                         }
                         
-                        juego.iniciarTablero();
-                        if (juego.getMode().equalsIgnoreCase("MANUAL")) {
-                            System.out.println("Modo manual seleccionado");
-                            juego.ponerPiezasManual(0);
-                            juego.ponerPiezasManual(1);
-                        }else{
-                            System.out.println("Modo aleatorio seleccionado");
-                            juego.ponerPiezasRandom(0);
-                            juego.ponerPiezasRandom(1);
-                        }
                         juego.empezarJuego();
                         break;
                         
@@ -232,3 +222,4 @@ public class Main {
         }
     }
 }
+ 
